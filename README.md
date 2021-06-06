@@ -1,7 +1,7 @@
 <h1>Stock-News-Monitoring</h1>
 
 <br>ABSTRACT: </br>
-This is a simple project that gives real time data of stocks of particular company that the user wish to know. To be more specific 
+This is a simple project that gives a real time data of stocks of a particular company that the user wish to know. To be more specific 
 in this project we compare the price of a Tesla stock at market close yesterday and market close the day before yesterday. The difference
 in price is calculated and if the difference is more that 3% then an SMS is sent to the user consisting information about %difference(raise or reduction in price) 
 along with the news that explains the recent advancements in the Tesla stock. This gives an idea to the user regarding how to go about the investment.
