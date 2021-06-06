@@ -6,11 +6,11 @@ STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-STOCK_API_KEY = "HD8I80NF4CIHGDRP"
-NEWS_API_KEY = "8a00136075744575b30e82f6d38bc25f"
+STOCK_API_KEY = "Your stock API key"
+NEWS_API_KEY = "Your news API key"
 
-account_sid = "ACc21bb9cda5ed563751c16c3c6e03e85a"  # This account sid is basically for identification of twilio account
-auth_token = "857b53740122da14690a554fde3e097d"
+account_sid = "Your account SID "  # This account sid is basically for identification of twilio account
+auth_token = "Your account's authentication token"
 client = Client(account_sid, auth_token)
 stock_params = {
     "function": "TIME_SERIES_DAILY_ADJUSTED",
@@ -56,8 +56,8 @@ if abs(diff_percent) > 3:
         try:
             message = client.messages.create(
                 body=article,
-                from_="18312260249",
-                to="91 63621 19038"
+                from_="Your twilio trial number",
+                to="Receiver's phone number"
             )
         except TwilioRestException as e:
             print(e)
