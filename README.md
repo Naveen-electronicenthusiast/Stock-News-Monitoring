@@ -18,9 +18,9 @@ along with the news that explains the recent advancements in the Tesla stock. Th
 <br>9. Send each article as a separate message via Twilio.</br>
 
 <h2>APIs used</h2>
-1. https://www.alphavantage.co/ is a stock market API used to get the stock price of different firms. Read this documentation https://www.alphavantage.co/documentation/ for better understanding of the API used in this project.</br>
-2. https://newsapi.org/ is a news API used to get the recent news related to the companies. Read the following documentation for better understanding https://newsapi.org/docs/endpoints/everything.
-3. https://www.twilio.com/docs/sms/quickstart/python this link will walk help you through the entire process step-by-step, starting with setting up your. Twilio account all the way through sending an SMS using a Messaging Service.
+<br>1. https://www.alphavantage.co/ is a stock market API used to get the stock price of different firms. Read this documentation https://www.alphavantage.co/documentation/ for better understanding of the API used in this project.</br>
+2. https://newsapi.org/ is a news API used to get the recent news related to the companies. Read the following documentation for better understanding https://newsapi.org/docs/endpoints/everything
+<br>3. https://www.twilio.com/docs/sms/quickstart/python this link will walk help you through the entire process step-by-step, starting with setting up your. Twilio account all the way through sending an SMS using a Messaging Service.</br>
 
 <h2>What is Twilio Messaging?</h2>
 Twilio Messaging is an API to send and receive SMS, MMS, OTT messages globally. It uses intelligent sending features to ensure messages reliably reach end users wherever they are. 
